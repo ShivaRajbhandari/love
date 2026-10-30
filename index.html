@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What's love? | Shiva Rajbhandari</title>
+<meta name="description" content="A longitudinal interview project: people who have never been in romantic love describe what they think love, heartbreak and relationships are, and are interviewed again if and when they fall in love.">
+<link rel="canonical" href="https://www.shivarajbhandari.com/love/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E3E9DC; --paper:#EDF1E7; --ink:#16271F; --muted:#4F6055; --line:#C3CDB9;
+  --accent:#C4502F; --river:#2D5B48; --gutter:clamp(20px,5vw,72px);
+  --serif:'Fraunces',Georgia,serif; --sans:'Inter',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#1F3A2E;--paper:#274637;--ink:#EEF1E6;--muted:#AEC1B4;--line:#3A5A49;--accent:#F49C7A;--river:#BDE6C8}
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:14px var(--gutter);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{display:flex;gap:10px;align-items:center;text-decoration:none;font-family:var(--serif);font-weight:600}
+.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:13px;letter-spacing:.04em}
+.nav nav{display:flex;gap:22px;align-items:center;font-size:14px}
+.nav nav a{text-decoration:none;color:var(--muted)}.nav nav a:hover{color:var(--ink)}
+main{max-width:860px;margin:0 auto;padding:0 var(--gutter)}
+.hero{padding:clamp(56px,10vw,120px) 0 36px}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--river);font-weight:600}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(46px,9vw,96px);line-height:.98;letter-spacing:-.02em;margin:18px 0 24px}
+h1 .em{font-style:italic;color:var(--accent);font-weight:400}
+.lede{font-family:var(--serif);font-size:clamp(21px,2.6vw,29px);line-height:1.35;max-width:26em}
+section{padding:44px 0;border-top:1px solid var(--line)}
+section .num{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--river);font-weight:600}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(28px,4vw,40px);line-height:1.1;margin:8px 0 18px}
+p+p{margin-top:14px}
+.steps{list-style:none;padding:0;display:grid;gap:14px;margin-top:20px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px 18px 62px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:18px;top:16px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-family:var(--serif);font-weight:600}
+.steps strong{font-family:var(--serif);font-size:19px;font-weight:600;display:block}
+.qs{list-style:none;padding:0;margin-top:14px}
+.qs li{font-family:var(--serif);font-size:20px;padding:12px 0;border-bottom:1px solid var(--line)}
+.qs li:last-child{border-bottom:0}
+.soon{background:var(--paper);border:1px dashed var(--accent);border-radius:14px;padding:26px;text-align:center;color:var(--muted)}
+.soon strong{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);font-weight:500;margin-bottom:4px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:15px;padding:13px 22px;border-radius:99px;background:var(--ink);color:var(--bg);margin-top:18px;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}.btn+.btn{margin-left:10px}
+footer{max-width:860px;margin:0 auto;padding:30px var(--gutter) 50px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="/"><span class="brand-mark">SR</span><span>Shiva Rajbhandari</span></a>
+  <nav><a href="/">Home</a><a href="#interviews">Interviews</a><a href="#participate">Take part</a></nav>
+</header>
+
+<main id="main">
+  <div class="hero">
+    <p class="eyebrow">A longitudinal interview project</p>
+    <h1>What's <span class="em">love</span>?</h1>
+    <p class="lede">What do you think love is, if you have never felt it? And what will you think once you have?</p>
+  </div>
+
+  <section>
+    <p class="num">The project</p>
+    <h2>Asking people before, and after</h2>
+    <p>I am interviewing people who have never been in romantic love about how they imagine it: what love is, what heartbreak is, and what a relationship asks of the people in it.</p>
+    <p>Then I stay in touch. If and when a participant falls in love, I interview them again and set the two videos side by side. The question is simple: what changes in how a person talks about love once they have been in it, and what turns out to have been right all along?</p>
+  </section>
+
+  <section>
+    <p class="num">How it works</p>
+    <h2>Two interviews, possibly years apart</h2>
+    <ol class="steps">
+      <li><strong>The first interview</strong>Recorded on video, with someone who has never been in romantic love. We talk about how they think about love, heartbreak and relationships.</li>
+      <li><strong>Staying in touch</strong>There is no deadline. Some people may fall in love within a year, others may take much longer, and some may not during the project.</li>
+      <li><strong>The second interview</strong>If and when they fall in love, we sit down again and revisit the same ground. Then the two videos are compared.</li>
+    </ol>
+  </section>
+
+  <section>
+    <p class="num">The conversation</p>
+    <h2>What I ask about</h2>
+    <ul class="qs">
+      <li>How do you picture love?</li>
+      <li>What do you imagine heartbreak to be?</li>
+      <li>What do you think a relationship is for?</li>
+      <li>Where did your ideas about all of this come from?</li>
+    </ul>
+  </section>
+
+  <section id="interviews">
+    <p class="num">The interviews</p>
+    <h2>Watch</h2>
+    <div class="soon"><strong>Coming soon</strong>Interviews will be posted here, with each participant's permission, as the project grows.</div>
+  </section>
+
+  <section id="participate">
+    <p class="num">Take part</p>
+    <h2>Have you never been in love?</h2>
+    <p>If you have never been in romantic love and would be willing to be interviewed, I would like to hear from you. Taking part is voluntary. Participants get final review before their video is made public, and last names are never shared.</p>
+    <a class="btn" href="mailto:shiva.a.rajbhandari@gmail.com?subject=What%27s%20love%3F%20interview">Email me</a>
+    <a class="btn" href="sms:+12088093845">Text me: (208) 809-3845</a>
+  </section>
+</main>
+<footer>A project by <a href="/">Shiva Rajbhandari</a>.</footer>
+</body>
+</html>
