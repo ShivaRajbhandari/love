@@ -45,6 +45,12 @@ p+p{margin-top:14px}
 .qs li:last-child{border-bottom:0}
 .soon{background:var(--paper);border:1px dashed var(--accent);border-radius:14px;padding:26px;text-align:center;color:var(--muted)}
 .soon strong{display:block;font-family:var(--serif);font-size:22px;color:var(--ink);font-weight:500;margin-bottom:4px}
+.videos{display:grid;gap:26px;margin-top:20px}
+.video{margin:0}
+.frame{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:var(--ink);border:1px solid var(--line)}
+.frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video figcaption{font-family:var(--serif);font-size:18px;margin-top:10px;color:var(--muted)}
+.video figcaption strong{color:var(--ink);font-weight:600}
 .btn{display:inline-block;text-decoration:none;font-weight:600;font-size:15px;padding:13px 22px;border-radius:99px;background:var(--ink);color:var(--bg);margin-top:18px;transition:transform .2s}
 .btn:hover{transform:translateY(-2px)}.btn+.btn{margin-left:10px}
 footer{max-width:860px;margin:0 auto;padding:30px var(--gutter) 50px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
@@ -96,7 +102,20 @@ footer{max-width:860px;margin:0 auto;padding:30px var(--gutter) 50px;font-size:1
   <section id="interviews">
     <p class="num">The interviews</p>
     <h2>Watch</h2>
-    <div class="soon"><strong>Coming soon</strong>Interviews will be posted here, with each participant's permission, as the project grows.</div>
+    <div class="videos">
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/8ExNKp_ziio" title="Shiva from Boise, ID: before falling in love" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <figcaption><strong>Shiva</strong> &middot; Boise, ID</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/wyYsKGHUsnU" title="Amy from Gastonia, NC: before falling in love" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <figcaption><strong>Amy</strong> &middot; Gastonia, NC</figcaption>
+      </figure>
+      <figure class="video">
+        <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/v9KLZ1EiWtA" title="Sheldon from Grand Rapids, MI: before falling in love" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+        <figcaption><strong>Sheldon</strong> &middot; Grand Rapids, MI</figcaption>
+      </figure>
+    </div>
   </section>
 
   <section id="participate">
